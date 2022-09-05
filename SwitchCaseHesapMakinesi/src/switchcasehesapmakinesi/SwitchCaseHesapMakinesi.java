@@ -10,70 +10,70 @@ public class SwitchCaseHesapMakinesi {
         
         System.out.println("***************");
         
-        String işlemler = "1.Toplama İşlemi\n"
-                + "2.Çıkarma İşlemi\n" 
-                + "3.Çarpma İşlemi\n"
-                + "4.Bölme İşlemi" ;
+        String islemler = "1.Toplama İslemi\n"
+                + "2.Cikarma İslemi\n" 
+                + "3.Carpma İslemi\n"
+                + "4.Bolme İslemi" ;
         
-        System.out.println(işlemler);
+        System.out.println(islemler);
         
         System.out.println("***************");
 
-        System.out.print("İşlem seçiniz :");
+        System.out.print("İslem seciniz :");
         
         String işlem = scanner.nextLine();
             
         int a ;
         int b ;
         
-        switch (işlem) {
+        switch (islem) {
                 case "1":
-                    System.out.print("Birinci sayı :");
+                    System.out.print("Birinci sayi :");
                     a = scanner.nextInt();
                     
-                    System.out.print("İkinci sayı :");
+                    System.out.print("İkinci sayi :");
                     b = scanner.nextInt();
                     
-                    System.out.println("Toplamları: " +  (a+b));
-                    System.out.println("İşleminiz Sonlanmıştır...");
+                    System.out.println("Toplamlari: " +  (a+b));
+                    System.out.println("İsleminiz Sonlanmistır...");
 
                     break ;
                 case "2":
-                    System.out.print("Birinci sayı :");
+                    System.out.print("Birinci sayi :");
                     a = scanner.nextInt();
                     
-                    System.out.print("İkinci sayı :");
+                    System.out.print("İkinci sayi :");
                     b = scanner.nextInt();
                     
-                    System.out.println("Farkları: " +  (a-b));
-                    System.out.println("İşleminiz Sonlanmıştır...");
+                    System.out.println("Farklari: " +  (a-b));
+                    System.out.println("İsleminiz Sonlanmistir...");
                     break ;
                 
                 case "3":
-                    System.out.print("Birinci sayı :");
+                    System.out.print("Birinci sayi :");
                     a = scanner.nextInt();
                    
-                    System.out.print("İkinci sayı :");
+                    System.out.print("İkinci sayi :");
                     b = scanner.nextInt();
                     
-                    System.out.println("Çarpımları: " +  (a*b));
-                    System.out.println("İşleminiz Sonlanmıştır...");
+                    System.out.println("Carpimlari: " +  (a*b));
+                    System.out.println("İsleminiz Sonlanmiştir...");
 
                     break;
                     
                 case "4":
-                    System.out.print("Birinci sayı :");
+                    System.out.print("Birinci sayi :");
                     a = scanner.nextInt();
                    
-                    System.out.print("İkinci sayı :");
+                    System.out.print("İkinci sayi :");
                     b = scanner.nextInt();
                     
-                    System.out.println("Bölümleri: " +  ((double)a/b));
-                    System.out.println("İşleminiz Sonlanmıştır...");
+                    System.out.println("Bolumleri: " +  ((double)a/b));
+                    System.out.println("İsleminiz Sonlanmistir...");
 
                     break ;
                 default: 
-                    System.out.println("Geçersiz İşlem");
+                    System.out.println("Gecersiz İslem");
                     break;
       }
                            
